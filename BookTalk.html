@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BookTalk</title>
+    <style>
+  body{
+      margin:0;
+    }
+      h1{
+        text-align: center;
+        border-bottom: 1px gray solid;
+        padding: 20px;
+        margin: 0;
+      }
+      ul{
+        list-style: none;
+        margin:0;
+        padding: 0px;
+        width: 200px;
+        height: 100%;
+        border-right: 1px gray solid;
+      }
+      a:link,a:active{
+        text-decoration: none;
+        color: gray;
+      }
+      .list{
+        color: gray;
+        padding: 8px;
+        padding-left: 20px;
+      }
+      .list:hover{
+        color: green;
+      }
+      .listlabel{
+        margin: 0;
+        padding: 0;
+      }
+      .listlabel:hover{
+        background-color: #F2F2F2;
+        cursor: pointer;
+      }
+      #title{
+        margin:0;
+        padding: 20px;
+      }
+      #title h2{
+        margin:0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a href="BookTalk.html" style="color :black">BookTalk</a></h1>
+
+    <ul>
+      <li id="title"><h2>목록</h2></li>
+      <div class = "listlabel" onclick="location.href='앵무새 죽이기.html'"><li class="list">앵무새 죽이기</li></div>
+      <div class = "listlabel" onclick="location.href='파수꾼.html'"><li class="list">파수꾼</li></div>
+      <div class = "listlabel" onclick="location.href='그리고 아무도 없었다.html'"><li class="list">그리고 아무도 없었다</li></div>
+    </ul>
+
+  </body>
+</html>
